@@ -69,3 +69,11 @@ C:\Users\naqee\source\repos\Salary Management\obj\Debug\net8.0-windows\UpdateSal
 C:\Users\naqee\source\repos\Salary Management\obj\Debug\net8.0-windows\UpdateSalaryWindow.g.cs
 C:\Users\naqee\source\repos\Salary Management\obj\Debug\net8.0-windows\DeleteEmplyeeWindow.baml
 C:\Users\naqee\source\repos\Salary Management\obj\Debug\net8.0-windows\DeleteEmplyeeWindow.g.cs
+C:\Users\naqee\source\repos\Salary Management\bin\Debug\net8.0-windows\Salary Management.dll.config
+C:\Users\naqee\source\repos\Salary Management\obj\Debug\net8.0-windows\Salary Management.sourcelink.json
+C:\Users\naqee\OneDrive\Desktop\Salary Management\Debug\net8.0-windows\Salary Management.exe
+C:\Users\naqee\OneDrive\Desktop\Salary Management\Debug\net8.0-windows\Salary Management.dll.config
+C:\Users\naqee\OneDrive\Desktop\Salary Management\Debug\net8.0-windows\Salary Management.deps.json
+C:\Users\naqee\OneDrive\Desktop\Salary Management\Debug\net8.0-windows\Salary Management.runtimeconfig.json
+C:\Users\naqee\OneDrive\Desktop\Salary Management\Debug\net8.0-windows\Salary Management.dll
+C:\Users\naqee\OneDrive\Desktop\Salary Management\Debug\net8.0-windows\Salary Management.pdb

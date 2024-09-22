@@ -6,7 +6,7 @@ namespace Salary_Management
 {
     public partial class ReturnLoanWindow : Window
     {
-        private string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=WorkerSalary;Integrated Security=True;";
+        string connectionString = $@"Data Source=.;AttachDbFilename={AppDomain.CurrentDomain.BaseDirectory}DemoDatabase1.mdf;Integrated Security=True;User Instance=True";
 
         public ReturnLoanWindow()
         {

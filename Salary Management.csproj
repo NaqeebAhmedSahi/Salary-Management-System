@@ -7,6 +7,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <BaseOutputPath>C:\Users\naqee\OneDrive\Desktop\Salary Management</BaseOutputPath>
   </PropertyGroup>
 
   <ItemGroup>

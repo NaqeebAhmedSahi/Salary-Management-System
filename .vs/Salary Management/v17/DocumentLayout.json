@@ -3,8 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\naqee\\source\\repos\\Salary Management\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|c:\\users\\naqee\\source\\repos\\salary management\\updatesalarywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|solutionrelative:updatesalarywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|c:\\users\\naqee\\source\\repos\\salary management\\returnloanwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|solutionrelative:returnloanwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|c:\\users\\naqee\\source\\repos\\salary management\\generatesalarywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|solutionrelative:generatesalarywindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|c:\\users\\naqee\\source\\repos\\salary management\\applyforloadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|solutionrelative:applyforloadwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|c:\\users\\naqee\\source\\repos\\salary management\\addemployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|solutionrelative:addemployeewindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{348F8B39-F3B5-40D3-8B59-D5E3DC35FBC0}|Salary Management.csproj|c:\\users\\naqee\\source\\repos\\salary management\\generatesalarywindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -26,36 +42,87 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UpdateSalaryWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\UpdateSalaryWindow.xaml.cs",
+              "RelativeDocumentMoniker": "UpdateSalaryWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\naqee\\source\\repos\\Salary Management\\UpdateSalaryWindow.xaml.cs",
+              "RelativeToolTip": "UpdateSalaryWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:07:59.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ReturnLoanWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\ReturnLoanWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ReturnLoanWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\naqee\\source\\repos\\Salary Management\\ReturnLoanWindow.xaml.cs",
+              "RelativeToolTip": "ReturnLoanWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:07:52.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ApplyForLoadWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\ApplyForLoadWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ApplyForLoadWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\naqee\\source\\repos\\Salary Management\\ApplyForLoadWindow.xaml.cs",
+              "RelativeToolTip": "ApplyForLoadWindow.xaml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T21:07:30.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddEmployeeWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\AddEmployeeWindow.xaml.cs",
+              "RelativeDocumentMoniker": "AddEmployeeWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\naqee\\source\\repos\\Salary Management\\AddEmployeeWindow.xaml.cs",
+              "RelativeToolTip": "AddEmployeeWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-22T20:58:38.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "GenerateSalaryWindow.xaml",
               "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\GenerateSalaryWindow.xaml",
               "RelativeDocumentMoniker": "GenerateSalaryWindow.xaml",
               "ToolTip": "C:\\Users\\naqee\\source\\repos\\Salary Management\\GenerateSalaryWindow.xaml",
               "RelativeToolTip": "GenerateSalaryWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-09-22T06:35:27.094Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T06:35:27.094Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "GenerateSalaryWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\GenerateSalaryWindow.xaml.cs",
               "RelativeDocumentMoniker": "GenerateSalaryWindow.xaml.cs",
               "ToolTip": "C:\\Users\\naqee\\source\\repos\\Salary Management\\GenerateSalaryWindow.xaml.cs",
               "RelativeToolTip": "GenerateSalaryWindow.xaml.cs",
-              "ViewState": "AQIAAA4BAAAAAAAAAAAAAM8AAAAmAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-22T06:35:23.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -66,7 +133,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\naqee\\source\\repos\\Salary Management\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
@@ -74,8 +141,7 @@
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AQIAADAAAAAAAAAAAAAYwDoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-21T14:57:37.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T14:57:37.453Z"
             }
           ]
         }

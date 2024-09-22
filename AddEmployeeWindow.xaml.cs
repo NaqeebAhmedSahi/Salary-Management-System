@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Data.SqlClient;
 using System.Windows;
+using System.Configuration;
+using System.IO;
+
 
 namespace Salary_Management
 {
     public partial class AddEmployeeWindow : Window
     {
-        // SQL Server connection string
-        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=WorkerSalary;Integrated Security=True";
+        string connectionString = $@"Data Source=.;AttachDbFilename={AppDomain.CurrentDomain.BaseDirectory}DemoDatabase1.mdf;Integrated Security=True;User Instance=True";
 
         public AddEmployeeWindow()
         {
@@ -16,6 +18,14 @@ namespace Salary_Management
 
         private void AddEmployee_Click(object sender, RoutedEventArgs e)
         {
+            string databaseFile = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "DemoDatabase1.mdf");
+
+            if (!File.Exists(databaseFile))
+            {
+                Console.WriteLine("Database file not found: " + databaseFile);
+                return;
+            }
+
             // Get input data
             string employeeName = EmployeeNameTextBox.Text;
             string designation = DesignationTextBox.Text;

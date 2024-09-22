@@ -60,7 +60,7 @@ namespace Salary_Management {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Salary Management;V1.0.0.0;component/deleteemplyeewindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Salary Management;component/deleteemplyeewindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\DeleteEmplyeeWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
