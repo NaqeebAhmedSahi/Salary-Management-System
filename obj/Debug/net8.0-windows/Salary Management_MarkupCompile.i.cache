@@ -1,0 +1,20 @@
+﻿Salary Management
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\naqee\source\repos\Salary Management\obj\Debug\net8.0-windows\
+Salary_Management
+none
+false
+TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+C:\Users\naqee\source\repos\Salary Management\App.xaml
+71354596915
+
+12-1955406133
+228-1753583352
+AddEmployeeWindow.xaml;ApplyForLoadWindow.xaml;DeleteEmplyeeWindow.xaml;GenerateSalaryWindow.xaml;MainWindow.xaml;ReturnLoanWindow.xaml;UpdateSalaryWindow.xaml;
+
+False
+

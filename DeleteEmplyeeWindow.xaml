@@ -1,0 +1,11 @@
+﻿<Window x:Class="Salary_Management.DeleteEmployeeWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Delete Employee" Height="200" Width="400">
+    <Grid>
+        <TextBlock Text="Select Employee to Delete:" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="EmployeeComboBox" Margin="10,30,10,0" VerticalAlignment="Top"/>
+
+        <Button Content="Delete Employee" Margin="10,70,10,0" VerticalAlignment="Top" Click="DeleteEmployee_Click"/>
+    </Grid>
+</Window>

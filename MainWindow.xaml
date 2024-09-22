@@ -1,0 +1,89 @@
+﻿<Window x:Class="Salary_Management.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Salary Management" Height="450" Width="800">
+    <!-- Background Gradient -->
+    <Window.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
+            <GradientStop Color="#3a6186" Offset="0.0" />
+            <GradientStop Color="#89253e" Offset="1.0" />
+        </LinearGradientBrush>
+    </Window.Background>
+
+    <Grid>
+        <!-- Title Section -->
+        <TextBlock Text="Employee Dashboard"
+                   FontSize="28"
+                   Foreground="White"
+                   HorizontalAlignment="Center"
+                   VerticalAlignment="Top"
+                   Margin="0,30,0,0"
+                   FontWeight="Bold"/>
+
+        <!-- Buttons Section -->
+        <Grid VerticalAlignment="Center" HorizontalAlignment="Center" Width="600" Margin="0,60,0,0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <!-- New row for delete button -->
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Button Style -->
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="Background" Value="#FF3A6186"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Height" Value="50"/>
+                    <Setter Property="Margin" Value="10"/>
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="BorderBrush" Value="White"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                    <Setter Property="Cursor" Value="Hand"/>
+                    <Setter Property="Template">
+                        <Setter.Value>
+                            <ControlTemplate TargetType="Button">
+                                <Grid>
+                                    <Border Background="{TemplateBinding Background}"
+                                            BorderBrush="{TemplateBinding BorderBrush}"
+                                            BorderThickness="{TemplateBinding BorderThickness}"
+                                            CornerRadius="25"/>
+                                    <ContentPresenter HorizontalAlignment="Center"
+                                                      VerticalAlignment="Center"/>
+                                </Grid>
+                            </ControlTemplate>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </Grid.Resources>
+
+            <!-- Add Employee Button -->
+            <Button Content="Add Employee" Click="AddEmployee_Click" Grid.Row="0" Grid.Column="0"/>
+
+            <!-- Generate Salary Button -->
+            <Button Content="Generate Salary" Click="GenerateSalary_Click" Grid.Row="0" Grid.Column="1"/>
+
+            <!-- Apply for Advance Button -->
+            <Button Content="Apply for Advance" Click="ApplyForAdvance_Click" Grid.Row="1" Grid.Column="0"/>
+
+            <!-- Return Loan Button -->
+            <Button Content="Return Loan" Click="ReturnLoanClick" Grid.Row="1" Grid.Column="1"/>
+
+            <!-- Upgrade Salary Button -->
+            <Button Content="Upgrade Salary" Click="UpgradeSalary_Click" Grid.Row="2" Grid.Column="0"/>
+
+            <!-- Delete Employee Button -->
+            <Button Content="Delete Employee" Click="DeleteEmployee_Click" Grid.Row="2" Grid.Column="1"/>
+
+        </Grid>
+    </Grid>
+</Window>
